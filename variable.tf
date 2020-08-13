@@ -21,7 +21,7 @@ variable "cluster_name" {
 variable "k8s_version" {
   type        = string
   description = "Desired Kubernetes master version."
-  default     = "1.16"
+  default     = "1.17"
 }
 
 variable "enabled_cluster_log_types" {
