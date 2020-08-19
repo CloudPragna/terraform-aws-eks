@@ -27,7 +27,7 @@ variable "k8s_version" {
 variable "enabled_cluster_log_types" {
   type        = list
   description = "A list of the desired control plane logging to enable"
-  default     = ["api", "audit"]
+  default     = ["api", "audit","authenticator","controllerManager","scheduler"]
 }
 
 variable "cluster_log_retention_in_days" {
@@ -41,13 +41,13 @@ variable "cluster_log_retention_in_days" {
 variable "endpoint_private_access" {
   type        = bool
   description = "Indicates whether or not the Amazon EKS private API server endpoint is enabled. Default is false."
-  default     = false
+  default     = true
 }
 
 variable "endpoint_public_access" {
   type        = bool
   description = "Indicates whether or not the Amazon EKS public API server endpoint is enabled. Default is true."
-  default     = true
+  default     = false
 }
 
 variable "public_access_cidrs" {

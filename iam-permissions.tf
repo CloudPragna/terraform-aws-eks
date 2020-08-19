@@ -111,7 +111,8 @@ resource "aws_iam_role_policy" "ec2_fullaccess_policy" {
   count = local.eks_count
   name  = format("%s-eks-ec2-policy", var.cluster_name)
   role  = aws_iam_role.eks-node-role[count.index].name
-
+  # checkov:skip=CKV_AWS_63 This need to be added
+  # checkov:skip=CKV_AWS_62 This need to be added
   policy = <<EOF
 {
     "Version": "2012-10-17",
