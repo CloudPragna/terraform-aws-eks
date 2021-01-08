@@ -94,6 +94,9 @@ module "eks" {
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
+## License
+
+Apache 2 Licensed. See LICENSE for full details.
 
 ### To-DO
 - [ ] Enable encryption_config
