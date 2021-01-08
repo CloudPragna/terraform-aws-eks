@@ -1,7 +1,7 @@
-variable "additional_tags" {
+variable "tags" {
   type = map(string)
   default = {
-    "createdby" = "devops"
+
   }
 }
 
@@ -21,7 +21,7 @@ variable "cluster_name" {
 variable "k8s_version" {
   type        = string
   description = "Desired Kubernetes master version."
-  default     = "1.17"
+  default     = "1.18"
 }
 
 variable "enabled_cluster_log_types" {
@@ -53,7 +53,7 @@ variable "endpoint_public_access" {
 variable "public_access_cidrs" {
   type        = list
   description = "List of CIDR blocks. Indicates which CIDR blocks can access the Amazon EKS public API server endpoint when enabled"
-  default     = ["0.0.0.0/0"]
+  default     = []
 }
 
 variable "vpc_id" {
