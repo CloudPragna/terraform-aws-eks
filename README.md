@@ -54,7 +54,7 @@ module "eks" {
 | enabled\_cluster\_log\_types | A list of the desired control plane logging to enable | `list` | <pre>[<br>  "api",<br>  "audit"<br>]</pre> | no |
 | endpoint\_private\_access | Indicates whether or not the Amazon EKS private API server endpoint is enabled. Default is false. | `bool` | `false` | no |
 | endpoint\_public\_access | Indicates whether or not the Amazon EKS public API server endpoint is enabled. Default is true. | `bool` | `true` | no |
-| k8s\_version | Desired Kubernetes master version. | `string` | `"1.17"` | no |
+| k8s\_version | Desired Kubernetes master version. | `string` | `"1.18"` | no |
 | public\_access\_cidrs | List of CIDR blocks. Indicates which CIDR blocks can access the Amazon EKS public API server endpoint when enabled | `list` | <pre>[<br>  "0.0.0.0/0"<br>]</pre> | no |
 | subnet\_ids | List of subnet IDs. Must be in at least two different availability zones. Amazon EKS creates cross-account elastic network interfaces in these subnets to allow communication between your worker nodes and the Kubernetes control plane. | `list` | `[]` | no |
 | vpc\_id | The VPC associated with your cluster. | `string` | `null` | no |
