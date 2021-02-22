@@ -1,4 +1,5 @@
 ![Static security analysis for Terraform](https://github.com/foss-cafe/terraform-aws-eks/workflows/Static%20security%20analysis%20for%20Terraform/badge.svg)
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/foss-cafe/terraform-aws-eks-node-group/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=foss-cafe%2Fterraform-aws-eks&benchmark=INFRASTRUCTURE+SECURITY)
 # Terraform module for AWS EKS
 
 ## Available features
