@@ -1,5 +1,20 @@
 ![Static security analysis for Terraform](https://github.com/foss-cafe/terraform-aws-eks/workflows/Static%20security%20analysis%20for%20Terraform/badge.svg)
+
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/foss-cafe/terraform-aws-eks-node-group/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=foss-cafe%2Fterraform-aws-eks&benchmark=INFRASTRUCTURE+SECURITY)
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/foss-cafe/terraform-aws-vpc-peering/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=foss-cafe%2Fterraform-aws-vpc-peering&benchmark=CIS+AWS+V1.2)
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/foss-cafe/terraform-aws-vpc-peering/pci)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=foss-cafe%2Fterraform-aws-vpc-peering&benchmark=PCI-DSS+V3.2)
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/foss-cafe/terraform-aws-vpc-peering/nist)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=foss-cafe%2Fterraform-aws-vpc-peering&benchmark=NIST-800-53)
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/foss-cafe/terraform-aws-vpc-peering/iso)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=foss-cafe%2Fterraform-aws-vpc-peering&benchmark=ISO27001)
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/foss-cafe/terraform-aws-vpc-peering/soc2)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=foss-cafe%2Fterraform-aws-vpc-peering&benchmark=SOC2)
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/foss-cafe/terraform-aws-vpc-peering/fedramp_moderate)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=foss-cafe%2Fterraform-aws-vpc-peering&benchmark=FEDRAMP+%28MODERATE%29)
+
+
 # Terraform module for AWS EKS
 
 ## Available features
